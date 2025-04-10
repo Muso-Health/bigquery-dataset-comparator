@@ -43,12 +43,10 @@ This command will compare the `musoapp` dataset in the `musohealth` project with
 
 The output file will contain a detailed report of the comparison, including:
 
-**Table Differences:**
-    *   Tables present in the old dataset but not
- in the new dataset.
-    *   Tables present in the new dataset but not in the old dataset.
+* **Table Differences:**
+    *   Tables present in the old dataset but not in the new dataset.
 *   **Schema Differences:**
-    *   For tables with the same name, differences in field names and types.
+    *   For tables with the same name, weather all fields in the table of the old dataset are in the table of the same data set and have same data types.
 *   **Data Record Verification:**
     *   Whether all records from the  old dataset are present in the new dataset.
     *   A sample of missing records (if any).
